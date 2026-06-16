@@ -1,1 +1,3 @@
 # Heart-Disease-Classification
+This repository contains an end-to-end binary classification project that predicts the presence of heart disease in patients based on clinical and diagnostic features. The project follows a complete machine learning pipeline from raw data loading through model evaluation, making it a practical example of how to approach a real-world healthcare classification problem.
+Data cleaning — The dataset is loaded from a CSV file and inspected for missing values and duplicates. Numeric columns are filled with their column mean, remaining categorical columns are one-hot encoded using pandas get_dummies, and features are standardised using StandardScaler before model training.
